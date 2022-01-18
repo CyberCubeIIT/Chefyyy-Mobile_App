@@ -2,8 +2,8 @@
 
 _Put an `x` in the boxes that apply_
 
-- [] Bug Report
-- [] Feature Request
+- [ ] Bug Report
+- [ ] Feature Request
 
 ## Current Behaviour:
 
