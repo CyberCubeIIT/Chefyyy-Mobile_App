@@ -66,7 +66,7 @@ class _MyAppState extends State<MyApp> {
       supportedLocales: const [Locale('en', '')],
       theme: ThemeData(primarySwatch: Colors.blue),
       home: initialUser == null || displaySplashImage
-          ? const Center(
+          ? Center(
               child: SizedBox(
                 width: 50,
                 height: 50,
