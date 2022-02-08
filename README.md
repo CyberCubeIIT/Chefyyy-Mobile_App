@@ -3,7 +3,7 @@
 </p>
 
  <p align="center">
-    Chefyyy is a Mobile application.That will suggest personalized food recipes.
+    Chefyyy is a Mobile Application.That will suggest personalized food recipes.
    
    ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white)
   </p>
