@@ -55,4 +55,34 @@ class _MyAppState extends State<MyApp> {
 
     super.dispose();
   }
+    @override
+    Widget build(BuildContext context) {
+      return MaterialApp(
+        title: 'Chefyyy Original',
+        localizationsDelegates: [
+          FFLocalizationsDelegate(),
+          GlobalMaterialLocalizations.delegate,
+          GlobalWidgetsLocalizations.delegate,
+          GlobalCupertinoLocalizations.delegate,
+        ],
+        locale: _locale,
+        supportedLocales: const [Locale('en', '')],
+        theme: ThemeData(brightness: Brightness.light),
+        themeMode: _themeMode,
+        home: initialUser == null || displaySplashImage
+            ? Center(
+                child: SizedBox(
+                  width: 50,
+                  height: 50,
+                  child: SpinKitHourGlass(
+                    color: Color(0xFF34E061),
+                    size: 50,
+                  ),
+                ),
+              )
+            : currentUser.loggedIn
+                ? SearchByRecipesPageWidget()
+                : LoginPageWidget(),
+      );
+    }
 }
