@@ -1,0 +1,32 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "newRecipes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "keywords",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "aggregatedRating",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "newRecipes",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "recipeIngredientParts",
+          "arrayConfig": "CONTAINS"
+        },
+        {
+          "fieldPath": "aggregatedRating",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ]
+}
