@@ -13,7 +13,7 @@ _Put an `x` in the boxes that apply_
 - [ ] Refactoring (no functional changes, no api changes)
 - [ ] Build related changes
 - [ ] Documentation content changes
-- [ ] Other (please describe): 
+- [ ] Other (please describe):
 
 ## Checklist
 
